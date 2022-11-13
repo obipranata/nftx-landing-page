@@ -928,13 +928,28 @@ hr {
   margin-bottom: 16px;
 }
 
-#footer .social-media {
-  display: flex;
-  gap: 16px;
+#footer .sosmed {
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
-#footer .card-social-media {
+#footer .sosmed h4 {
+  margin-bottom: 18px;
+  font-family: 'Anybody';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #293241;
+}
+
+#footer .sosmed .card {
+  display: flex;
+  gap: 16px;
+}
+
+#footer .card .card-social-media {
   display: flex;
   align-items: center;
   background: #EAEBEC;
@@ -944,7 +959,7 @@ hr {
   border-radius: 8px;
 }
 
-#footer .card-social-media img {
+#footer .card .card-social-media img {
   width: 24px;
   height: 24px;
 }
